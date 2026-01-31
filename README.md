@@ -10,8 +10,8 @@ The goal was to transform raw transactional data into clear, decision-ready dash
 
 * Source: Online Retail dataset(Kaggle)
 * Type: Transaction-level sales data
-
 * Key fields:
+
   * InvoiceDate
   * Country
   * CustomerID
@@ -72,7 +72,6 @@ Shows which countries generate the most revenue.
 
 * Horizontal bar chart
 * Values shown in £ Millions
-
 * UK is crearly the main market
 
 screenshots/Top_Countries.png
@@ -99,19 +98,31 @@ screenshots/Dashboard_overview.png
 
 ## Repository Structure
 
-excel-kpi-reporting/
-├── data/
+**excel-kpi-reporting/**
 
-│   ├── clean_data_sample.csv
-│   ├── raw_data_sample.csv
+**├── data/**
 
-├── screenshots/
-│   ├── Dashboard_overview.png
-│   ├── kpi_cards.png
-│   ├── Revenue_over_time.png
-│   ├── Top_Countries.png
-│   └── Top_Products.png
-└── README.md
+**│├── raw_data_sample.csv**
+
+**│ └── clean_data_sample.csv**
+
+**│**
+
+**├── screenshots/**
+
+**│ ├── Dashboard_overview.png**
+
+**│ ├── kpi_cards.png**
+
+**│├── Revenue_over_time.png**
+
+**│├── Top_Countries.png**
+
+**│ └── Top_Products.png**
+
+**│**
+
+**└── README.md**
 
 ## Key Takeaway
 
